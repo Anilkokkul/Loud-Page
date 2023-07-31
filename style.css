@@ -1,0 +1,186 @@
+@media(max-width:990px){
+    .about{
+        flex-direction: column;
+    }
+    .main{
+        flex-direction: column;
+    }
+}
+Body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 13   px;
+}
+.Loud-Page{
+    position: relative;
+    background-color: #1b1c1d;
+    color: aliceblue;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.Loud-Page h1{
+    font-size: 50px;
+}
+.nav{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    gap: 15px;
+    padding: 20px 20%;
+    font-size: 15px;
+}
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:5% 15%;
+}
+.about img{
+    width: 300px;
+    padding: 30px;
+}
+.container{
+    padding: 0 20px;
+    font-size: 15px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+}
+.button button{
+    width: max-content;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 3px;
+    margin: 5px;
+    cursor: pointer;
+}
+.about-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.heading{
+    height: 70px;
+    background-color: #1b1c1d;
+    color: aliceblue;
+    text-align: center;
+    line-height: 70px;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    position: relative;
+    position: relative;
+}
+.title {
+    position: relative;
+    z-index:3;
+    margin: 30px 0;
+}
+.title >span {
+    background: white;
+    padding: 0 1.5rem;
+}
+.title::before{
+    position: absolute;
+    content: "";
+    background-color: black;
+    height: 2px;
+    display: block;
+    width: 50vw;
+right: 0;
+z-index: -2;
+}
+
+.title::after{
+    position: absolute;
+    content: "";
+    background-color: black;
+    height: 2px;
+    display: block;
+    width: 50vw;
+    z-index: -3;
+left: 0;
+}
+.item{
+    display: flex;
+    gap: 10px;
+    font-size: 20px;
+}
+.item img{
+    width: 30px;
+}
+.card{
+    width: 200px;
+    border: 1px solid black;
+    padding: 5px;
+    font-size: 12px;
+    border-radius: 5px;
+}
+.award-details{
+    display: flex;
+    gap: 15px;
+    padding: 5% 7%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.Content{
+    width: 400px;
+    padding: 10px;
+}
+.Poem-card{
+    text-align: center;
+    position: relative;
+}
+
+
+.Poem-card h1::before{
+    content: "";
+    width: 35%;
+    height: 1px;
+    background-color: rgb(206, 203, 203);
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    z-index: -2;
+}
+.Poem-card h1::after{
+    content: "";
+    width: 35%;
+    height: 1px;
+    background-color: rgb(206, 203, 203);
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    z-index: -2;
+}
+.main{
+    display: flex;
+    padding: 2% 10%;
+    justify-content: center;
+    align-items: center;
+}
+.footer{
+    background-color: #1b1c1d;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px 20px;
+    font-size: 12px;
+}
+
